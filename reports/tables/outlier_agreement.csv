@@ -1,0 +1,6 @@
+dbscan_outlier,kmeans_outlier,som_outlier,customers
+False,False,False,31085
+True,False,False,1479
+True,True,True,873
+True,True,False,139
+True,False,True,139

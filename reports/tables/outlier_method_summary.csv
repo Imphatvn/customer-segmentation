@@ -1,0 +1,4 @@
+,customers_flagged,percentage_flagged
+dbscan_outlier,2630,7.800682188936675
+kmeans_outlier,1012,3.00163132137031
+som_outlier,1012,3.00163132137031

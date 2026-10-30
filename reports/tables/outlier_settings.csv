@@ -1,0 +1,11 @@
+,value
+iqr_multiplier,10
+include_zero_tenure,False
+scaling,RobustScaler on eligible original-unit spending
+dbscan_eps,2.0929857727500814
+dbscan_min_samples,10
+kmeans_clusters,70
+distance_percentile,97
+som_size,10x10
+som_iterations,10000
+random_seed,42
