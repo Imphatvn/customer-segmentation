@@ -1,0 +1,4 @@
+representation,customers,features,finite_values
+original_scaled,33715,11,True
+log_scaled,33715,11,True
+log_pca,33715,8,True

@@ -1,0 +1,33 @@
+{
+  "algorithm": "KMeans",
+  "k_values": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "outer_seeds": [
+    11,
+    42,
+    73
+  ],
+  "n_init": 10,
+  "max_iter": 300,
+  "silhouette_sample": 2000,
+  "sample_seed": 42,
+  "retained_run_rule": "Minimum inertia within representation and k",
+  "fitting_customers": 33715,
+  "final_selection": null,
+  "python": "3.12.15",
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0"
+  }
+}

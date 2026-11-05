@@ -1,0 +1,165 @@
+product_name,category,review_status,notes
+oil,groceries,reviewed,Assumed edible oil; kept distinct from cooking oil.
+cooking oil,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+babies food,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+asparagus,vegetables,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+cake,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+tomatoes,vegetables,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+champagne,alcohol_drinks,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+fresh tuna,fish,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+ratchet & clank,videogames,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+candy bars,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+carrots,vegetables,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+tea,nonalcohol_drinks,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+cologne,hygiene,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+barbecue sauce,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+napkins,hygiene,reviewed,Household paper products grouped under hygiene.
+minecraft,videogames,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+pet food,petfood,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+fresh bread,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+spaghetti,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+soup,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+bluetooth headphones,electronics,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+gums,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+energy drink,nonalcohol_drinks,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+muffins,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+white wine,alcohol_drinks,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+deodorant,hygiene,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+mashed potato,groceries,reviewed,"Prepared/preserved food grouped under groceries, not fresh vegetables."
+ham,meat,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+chicken,meat,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+burgers,meat,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+french fries,groceries,reviewed,"Prepared/preserved food grouped under groceries, not fresh vegetables."
+airpods,electronics,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+avocado,vegetables,reviewed,Fresh-produce convention: grouped under vegetables.
+escalope,meat,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+milk,nonalcohol_drinks,reviewed,"Milk grouped under nonalcohol_drinks, following the project convention."
+ratchet & clank 2,videogames,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+pancakes,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+frozen vegetables,vegetables,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+cider,alcohol_drinks,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+ketchup,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+beer,alcohol_drinks,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+cottage cheese,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+olive oil,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+protein bar,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+rice,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+gadget for tiktok streaming,electronics,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+toilet paper,hygiene,reviewed,Household paper products grouped under hygiene.
+frozen smoothie,nonalcohol_drinks,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+melons,groceries,reviewed,Fruit grouped under groceries because the project taxonomy has no fruit category.
+yogurt cake,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+iphone 10,electronics,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+laptop,electronics,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+mineral water,nonalcohol_drinks,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+salmon,fish,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+dessert wine,alcohol_drinks,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+cookies,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+turkey,meat,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+french wine,alcohol_drinks,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+fromage blanc,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+strong cheese,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+pokemon sword,videogames,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+samsung galaxy 10,electronics,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+cereals,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+cauliflower,vegetables,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+imac,electronics,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+ratchet & clank 3,videogames,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+shower gel,hygiene,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+zucchini,vegetables,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+shrimp,fish,reviewed,Seafood grouped under fish; no separate seafood category.
+green beans,vegetables,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+bacon,meat,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+cream,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+grated cheese,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+pokemon violet,videogames,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+tooth brush,hygiene,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+phone car charger,electronics,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+oatmeal,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+eggs,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+mint green tea,nonalcohol_drinks,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+toothpaste,hygiene,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+whole wheat rice,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+pokemon shield,videogames,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+parmesan cheese,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+flax seed,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+energy bar,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+whole weat flour,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+sandwich,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+shampoo,hygiene,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+red wine,alcohol_drinks,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+shallot,vegetables,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+body spray,hygiene,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+bramble,other,reviewed,Ambiguous name; unresolved product meaning. Assigned other as a documented fallback; exclude other from category rules.
+pasta,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+meatballs,meat,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+pokemon scarlet,videogames,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+tomato sauce,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+ground beef,meat,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+black beer,alcohol_drinks,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+mayonnaise,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+hot dogs,meat,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+green grapes,groceries,reviewed,Fruit grouped under groceries because the project taxonomy has no fruit category.
+blueberries,groceries,reviewed,Fruit grouped under groceries because the project taxonomy has no fruit category.
+catfish,fish,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+sparkling water,nonalcohol_drinks,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+cotton buds,hygiene,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+black tea,nonalcohol_drinks,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+spinach,vegetables,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+brownies,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+half-life 2,videogames,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+almonds,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+herb & pepper,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+antioxydant juice,nonalcohol_drinks,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+vegetables mix,vegetables,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+ipad,electronics,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+strawberries,groceries,reviewed,Fruit grouped under groceries because the project taxonomy has no fruit category.
+butter,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+soda,nonalcohol_drinks,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+mint,vegetables,reviewed,"Assumed fresh herb, not confectionery; name-based assumption."
+metroid fusion,videogames,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+salad,vegetables,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+metroid prime,videogames,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+nonfat milk,nonalcohol_drinks,reviewed,"Milk grouped under nonalcohol_drinks, following the project convention."
+salt,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+phone charger,electronics,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+ring light,electronics,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+chocolate bread,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+light mayo,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+razor,hygiene,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+low fat yogurt,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+gluten free bar,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+pickles,groceries,reviewed,"Prepared/preserved food grouped under groceries, not fresh vegetables."
+vacuum cleaner,electronics,reviewed,Electrical household appliance grouped under electronics.
+corn,vegetables,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+final fantasy xix,videogames,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+yams,vegetables,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+half-life: alyx,videogames,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+hand protein bar,groceries,reviewed,Assumed food bar despite unusual name; source name preserved.
+eggplant,vegetables,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+canned_tuna,fish,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+whole wheat pasta,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+portal 2,videogames,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+final fantasy xx,videogames,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+megaman zero,videogames,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+megaman zero 3,videogames,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+final fantasy xxii,videogames,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+seabass,fish,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+portal,videogames,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+megaman zero 4,videogames,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+megaman zero 2,videogames,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+chutney,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+trout,fish,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+chili,vegetables,reviewed,Assumed fresh chili; name could also refer to a spice or prepared food.
+chocolate,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+dog food,petfood,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+burger sauce,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+green tea,nonalcohol_drinks,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+tomato juice,nonalcohol_drinks,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+cat food,petfood,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+light cream,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+mushroom cream sauce,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+water spray,other,reviewed,Ambiguous product type. Assigned other as a documented fallback; exclude other from category rules.
+honey,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+extra dark chocolate,groceries,reviewed,Name-based mapping accepted for this analysis; not verified against a supplier taxonomy.
+pepper,groceries,reviewed,"Assumed spice/seasoning, not fresh pepper; name-based assumption."

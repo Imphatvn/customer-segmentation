@@ -1,0 +1,5 @@
+,total_annual_spending,total_annual_spending,pct_prod_in_promotion,pct_prod_in_promotion,age,age,child_home,child_home,customer_lifetime,customer_lifetime,distinct_stores_visited,distinct_stores_visited,lifetime_total_distinct_products,lifetime_total_distinct_products
+,mean,median,mean,median,mean,median,mean,median,mean,median,mean,median,mean,median
+cluster,,,,,,,,,,,,,,
+0,1783.2728315850648,1565.384615384615,0.35186278738221227,0.2494931713980227,55.90494319926312,56.0,1.8986183604544058,2.0,12.274669941664108,12.0,3.306846791525944,3.0,121.19852625115136,81.0
+1,5991.425420187613,4299.846153846152,0.2574014987119011,0.20727460021364305,53.369191049913944,54.0,2.2222604704532416,2.0,8.867699368904189,9.0,2.514974182444062,2.0,190.40458978772233,170.0

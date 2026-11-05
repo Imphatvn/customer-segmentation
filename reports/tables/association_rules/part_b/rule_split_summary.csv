@@ -1,0 +1,13 @@
+cluster,segment_name,split,baskets,customers
+0,Established Multi-Category Shoppers,discovery,25421,6426
+0,Established Multi-Category Shoppers,holdout,6591,1607
+1,Electronics and Gaming Shoppers,discovery,8103,2048
+1,Electronics and Gaming Shoppers,holdout,1981,512
+2,"Low-Spending, Promotion-Oriented Shoppers",discovery,12370,3110
+2,"Low-Spending, Promotion-Oriented Shoppers",holdout,3100,777
+3,Promotion-Heavy Regular Shoppers,discovery,11956,2990
+3,Promotion-Heavy Regular Shoppers,holdout,2984,747
+4,High-Spending Multi-Category Shoppers,discovery,10323,2627
+4,High-Spending Multi-Category Shoppers,holdout,2533,657
+5,Vegetable-Focused Shoppers,discovery,10289,2570
+5,Vegetable-Focused Shoppers,holdout,2596,643

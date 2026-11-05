@@ -1,0 +1,13 @@
+{
+  "input_rule_export": "reports\\tables\\association_rules\\part_b\\pair_rules_discovery_with_checks.csv",
+  "selection": "human-designed post-hoc exploratory hypotheses informed by inspected Part B evidence",
+  "new_mining": false,
+  "launch_approved": false,
+  "discounts": "unset pending margin and commercial review",
+  "customer_assignments": "existing assigned segments only; unresolved assignments remain separate",
+  "primary_metric": "proposed incremental contribution margin per randomized eligible customer",
+  "revision": "part_c_analytical_review_v2",
+  "decisions": "qualitative post-hoc review; not a numerical ranking or optimal selection",
+  "profile_validation": "not independently re-audited in Part C",
+  "status_separation": "descriptive evidence gate, analytical decision, commercial review, launch approval"
+}

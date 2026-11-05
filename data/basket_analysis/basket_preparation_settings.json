@@ -1,0 +1,14 @@
+{
+  "scope": "Exploratory baskets of assigned customers only",
+  "basket_source": "data\\raw\\customer_basket.csv",
+  "register_source": "models\\clustering\\customer_assignment_register_INCOMPLETE.csv",
+  "unit": "one invoice; unique product presence within basket",
+  "normalization": "lowercase; strip and collapse whitespace; no fuzzy matching",
+  "duplicate_invoice_policy": "All rows with repeated invoice IDs were set aside because customer ownership was unresolved",
+  "ambiguous_invoice_rows": 743,
+  "retained_rows": 99257,
+  "input_rows": 100000,
+  "eligible_baskets": 98247,
+  "eligible_customers": 24714,
+  "rule_mining_status": "not implemented pending basket and mapping review"
+}

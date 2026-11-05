@@ -1,0 +1,16 @@
+{
+  "candidate_id": "log_scaled__k6",
+  "reason": "Selected as the working segmentation for positive-tenure customers. The six-cluster log-scaled solution provides distinct spending and promotion-purchasing profiles, with minimum seed-pair ARI of approximately 0.993 and minimum subsampling ARI of approximately 0.975. The three-cluster solution is useful but too coarse for the intended targeted marketing analysis. The five-cluster solution showed a substantial subsampling instability. The six-cluster PCA alternative produced similar profiles without a clear practical advantage sufficient to justify the additional compression layer. Zero-tenure customers remain pending and are not assigned automatically.",
+  "representation": "log_scaled",
+  "segment_names": {
+    "0": "Established Multi-Category Shoppers",
+    "1": "Electronics and Gaming Shoppers",
+    "2": "Low-Spending, Promotion-Oriented Shoppers",
+    "3": "Promotion-Heavy Regular Shoppers",
+    "4": "High-Spending Multi-Category Shoppers",
+    "5": "Vegetable-Focused Shoppers"
+  },
+  "assigned_customers": 33715,
+  "pending_customers": 345,
+  "preparation_artifact": "models/feature_preparation/feature_transformations.joblib"
+}

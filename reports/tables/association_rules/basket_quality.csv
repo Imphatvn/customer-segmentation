@@ -1,0 +1,6 @@
+,count
+input_rows,100000
+missing_invoice_id,0
+rows_with_duplicate_invoice_id,743
+missing_customer_id,0
+invalid_or_empty_baskets,0

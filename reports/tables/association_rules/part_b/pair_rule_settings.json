@@ -1,0 +1,29 @@
+{
+  "algorithm": "exact presence-based singleton-pair counting; not Apriori",
+  "scope": "assigned, audited transaction baskets from Part A",
+  "discovery_thresholds": {
+    "min_count": 30,
+    "min_support": 0.005,
+    "min_confidence": 0.2,
+    "min_lift": 1.1
+  },
+  "customer_split_seed": 42,
+  "holdout_fraction_customers": 0.2,
+  "excluded_category_token": "other",
+  "empty_category_baskets_retained": true,
+  "rest_reference": "all other assigned segments, discovery split only",
+  "holdout_check": "joint baskets >=10, antecedent baskets >=20, lift >1; descriptive only",
+  "mapping_assumptions": [
+    "bramble",
+    "water spray"
+  ],
+  "input_baskets": 98247,
+  "input_customers": 24714,
+  "numpy_version": "2.5.4",
+  "pandas_version": "3.0.6",
+  "revision": "evidence_review_v2",
+  "holdout_status": "Previously inspected descriptive robustness sample; not a new untouched test",
+  "review_deduplication": "One direction per cluster/level/unordered pair; direction by discovery confidence",
+  "campaign_ranking": "Discovery lift then joint count; no holdout tuning or automatic approval",
+  "holdout_flag_name": "holdout_minimum_evidence_check"
+}

@@ -1,0 +1,7 @@
+cluster,segment_name,baskets,customers,mean_basket_size,median_basket_size,baskets_per_customer
+0,Established Multi-Category Shoppers,32012,8033,9.051730601024616,9.0,3.985061620814142
+1,Electronics and Gaming Shoppers,10084,2560,8.976398254660849,9.0,3.9390625
+2,"Low-Spending, Promotion-Oriented Shoppers",15470,3887,8.974078862314157,9.0,3.979933110367893
+3,Promotion-Heavy Regular Shoppers,14940,3737,9.069410977242303,9.0,3.997859245383998
+4,High-Spending Multi-Category Shoppers,12856,3284,8.986154324828874,9.0,3.9147381242387334
+5,Vegetable-Focused Shoppers,12885,3213,8.811175785797438,9.0,4.010270774976657

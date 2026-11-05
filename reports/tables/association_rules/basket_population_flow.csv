@@ -1,0 +1,6 @@
+,rows
+original_input_rows,100000
+ambiguous_invoice_rows_set_aside,743
+retained_rows,99257
+retained_rows_outside_analysis,1010
+eligible_assigned_baskets,98247

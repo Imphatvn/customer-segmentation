@@ -1,0 +1,6 @@
+idea,decision,reason
+Cologne + oil,descriptive_only,No clear complementary offer logic
+Videogames + food,descriptive_only,Avoid unsupported lifestyle or family inference
+Mineral water -> cauliflower,defer,Positive association did not persist in inspected holdout
+Low fat yogurt -> green beans,defer,Positive association did not persist in inspected holdout
+Blanket or automatic percentage discount,not_specified,Commercial economics unavailable

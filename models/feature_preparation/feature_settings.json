@@ -1,0 +1,48 @@
+{
+  "source_data": "data/preprocessed/customer_info_clean.csv",
+  "source_flags": "data/preprocessed/customer_outlier_flags.csv",
+  "fitting_policy": "Positive tenure; reviewed exclusions respected; detector flags alone do not exclude",
+  "zero_tenure_policy": "Deferred pending annual-spending review; no automatic assignment",
+  "features": [
+    "spend_per_year_groceries",
+    "spend_per_year_electronics",
+    "spend_per_year_vegetables",
+    "spend_per_year_nonalcohol_drinks",
+    "spend_per_year_alcohol_drinks",
+    "spend_per_year_meat",
+    "spend_per_year_fish",
+    "spend_per_year_hygiene",
+    "spend_per_year_petfood",
+    "spend_per_year_videogames",
+    "pct_prod_in_promotion"
+  ],
+  "logged_features": [
+    "spend_per_year_groceries",
+    "spend_per_year_electronics",
+    "spend_per_year_vegetables",
+    "spend_per_year_nonalcohol_drinks",
+    "spend_per_year_alcohol_drinks",
+    "spend_per_year_meat",
+    "spend_per_year_fish",
+    "spend_per_year_hygiene",
+    "spend_per_year_petfood",
+    "spend_per_year_videogames"
+  ],
+  "scaler": "StandardScaler for both baseline representations",
+  "pca_variance_target": 0.9,
+  "pca_components_retained": 8,
+  "pca_retained_variance": 0.9264915320792786,
+  "pca_whiten": false,
+  "population_counts": {
+    "fitting": 33715,
+    "deferred_zero_tenure": 345
+  },
+  "python_version": "3.12.15",
+  "package_versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "joblib": "1.6.0"
+  }
+}
