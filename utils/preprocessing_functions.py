@@ -199,7 +199,7 @@ def create_annual_spend_features(df):
 # Imputation
 # ------------------------------------------------------------------------------
 
-def impute_spend_with_knn(df, target_columns, n_neighbors=5):
+def impute_spend_with_knn(df, n_neighbors=5):
     """Impute missing annual spending values using K-Nearest Neighbours.
 
     All numeric spending features are used as predictors. The values are scaled
@@ -278,7 +278,8 @@ def impute_vegetables_with_boosting(df, target_column="spend_per_year_vegetables
     )
     model.fit(features[known], df.loc[known, target_column])
 
-    df.loc[~known, target_column] = model.predict(features[~known])
+    predictions = model.predict(features[~known])
+    df.loc[~known, target_column] = np.maximum(predictions, 0)
 
     return df
 
@@ -312,11 +313,15 @@ def impute_distinct_stores(df,column="distinct_stores_visited"):
 
 def validate_customer_data(df):
     """Run basic checks before using the data for clustering."""
+    annual_spending = df.filter(like="spend_per_year_")
     checks = {
         "unique_customer_id": df["customer_id"].is_unique,
         "promotion_within_range": df["pct_prod_in_promotion"].between(0, 1).all(),
-        "positive_customer_lifetime": (df["customer_lifetime"] >= 0).all(),
+        "nonnegative_customer_lifetime": (df["customer_lifetime"] >= 0).all(),
         "no_missing_annual_spend": df.filter(like="spend_per_year_").isna().sum().sum() == 0,
+        "no_negative_annual_spend": annual_spending.ge(0).where(
+            annual_spending.notna(), True
+        ).all().all(),
     }
 
     return pd.Series(checks, name="passed")
@@ -341,6 +346,6 @@ def preprocess_customer_data(df):
     df = create_annual_spend_features(df)
     df = impute_distinct_stores(df)
     df = impute_vegetables_with_boosting(df)
-    df = impute_spend_with_knn(df, target_columns=None)
+    df = impute_spend_with_knn(df)
 
     return df
