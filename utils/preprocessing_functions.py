@@ -229,7 +229,7 @@ def evaluate_vegetable_imputer(df, target_column="spend_per_year_vegetables",lea
     df_model = df[df[target_column].notna()].copy()
 
     features = pd.get_dummies(
-        df_model.drop(columns=[target_column, leakage_column]),
+        df_model.drop(columns=["customer_id", target_column, leakage_column]),
         drop_first=True,
     )
     target = df_model[target_column]
@@ -265,7 +265,7 @@ def impute_vegetables_with_boosting(df, target_column="spend_per_year_vegetables
     df = df.copy()
 
     features = pd.get_dummies(
-        df.drop(columns=[target_column, leakage_column]),
+        df.drop(columns=["customer_id", target_column, leakage_column]),
         drop_first=True,
     )
     known = df[target_column].notna()

@@ -83,23 +83,3 @@ def experiment_checklist(plan):
         result[column] = pd.NA
     result["test_status"] = "design_only_not_launched"
     return result
-
-
-def write_report(plan, destination):
-    lines = ["# Part C: Proposed Campaigns", "",
-             "These are post-hoc exploratory hypotheses, not proven incremental-sales opportunities.", "",
-             "All proposals await commercial review. No discount amounts or uplift forecasts are assumed.", ""]
-    for _, row in plan.iterrows():
-        lines += [f"## Segment {row['cluster']}: {row['campaign_name']}",
-                  f"Segment: {row['segment_name']}",
-                  f"Evidence ({row['level']}): {row['antecedent']} -> {row['consequent']}.",
-                  f"Discovery: {int(row['joint_count'])} joint baskets, {int(row['joint_customers'])} supporting customers; "
-                  f"confidence {row['confidence']:.3f}, lift {row['lift']:.3f}.",
-                  f"Holdout: {int(row['holdout_joint_count'])} joint baskets; confidence {row['holdout_confidence']:.3f}, "
-                  f"lift {row['holdout_lift']:.3f}.",
-                  f"Confidence difference versus other discovery segments: {row['confidence_difference_vs_rest']:.3f}.",
-                  f"Proposal: {row['proposed_mechanic']}",
-                  f"Caution: {row['commercial_caution']}",
-                  f"Evidence status: {row['evidence_status']}.",
-                  f"Decision: {row['review_status']}; launch not approved.", ""]
-    Path(destination).write_text("\n".join(lines), encoding="utf-8")
